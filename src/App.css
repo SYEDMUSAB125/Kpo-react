@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading{
+    text-align: center;
+    color: #bcb29d;
+    background-color: rgb(87, 194, 237);
+    text-shadow: 10px 20px 10px 20px #000 ;
+}
