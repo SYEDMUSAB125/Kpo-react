@@ -1,12 +1,14 @@
 import React, { useRef, useState } from "react";
 
 import "./App.css"
+import Hokks from "./components/Hokks";
 
 // import Counter from './components/counter/Counter';
 // three ways 
 // module
 // inline 
 // file
+
 
 function App() {
   const [count, setCount ] = useState(0)
@@ -33,7 +35,7 @@ function App() {
   return (
     <>
 
-
+< Hokks />
 
 
 
