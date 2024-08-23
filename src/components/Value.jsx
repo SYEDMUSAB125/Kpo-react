@@ -1,11 +1,13 @@
 import React, { useContext } from 'react';
-import SelfContext from '../context/context';
+import counterContext from '../context/context';
 
 function Value() {
- const value = useContext(SelfContext);
+   const data =  useContext(counterContext)
   return (
     <div>
-      {value.count}
+      <h1>
+        {data}
+      </h1>
     </div>
   );
 }

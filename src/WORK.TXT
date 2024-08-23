@@ -1,0 +1,14 @@
+App 
+ provider
+    Navbar count 
+        button count 
+            value count 
+            provider
+            props drilling 
+context 
+create, provider , usecontext
+app => value
+
+Reducer state manage 
+const [state, dispatch]   = useReducer(function,initial state)
+                                        reducer(currentstate,action)

@@ -1,8 +1,7 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import Button from './Button';
 
 function Navbar() {
- 
   return (
     <div>
       <Button/>
